@@ -4,9 +4,9 @@ Minimum program to preduce graphics bug on some Linux computers
 ## The Problem
 When running the program on some Linux computers, the following graphics bug is observed:
 
+![Screenshot from 2022-09-04 12-23-00](https://user-images.githubusercontent.com/1922739/188294459-5c7ff94a-1ddf-44ef-85c3-74e9401c59b0.png)
 
-
-Note the jagged artifacts around the sprite image. When I run the program, Bevy prints the following text:
+Note the jagged artifacts around the sprite image. These artifacts appear around ALL 2D sprites on my system, and thresholding the alpha channel on the sprite does not fix it. When I run the program, Cargo and Bevy print the following text:
 
 ```bash
 $ cargo run
